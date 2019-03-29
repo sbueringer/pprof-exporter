@@ -1,0 +1,5 @@
+FROM centos
+
+COPY tmp/pprof-exporter /
+
+ENTRYPOINT  ["/pprof-exporter"]
